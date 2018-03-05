@@ -11,10 +11,16 @@ You can test your function by opening index.html in your browser and viewing the
 */
 
 function getElementsByClassName(strClassName) {
-  //=====================
-  // YOUR CODE HERE
-  //=====================
-  return;
+  var elements = [];
+  function addElement(node){
+    var allClasses = node.classList;
+    if (allClasses && allClasses.contains(strClassName)){
+      elements.push(node);
+    }
+    node.childNodes.forEach(addElement);
+    return elements;
+  }
+  return addElement(document.body, elements);
 }
 
 
