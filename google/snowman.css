@@ -1,0 +1,74 @@
+div{
+  text-family: Arial;
+}
+/*Top*/
+#header{
+/*   border: 13px solid #fff; */
+  
+}
+.top{
+  border: 13px solid #fff;
+}
+.link{
+  font-family: Arial;
+  font-size: .8em;
+  text-decoration: none;
+  display: inline-block;
+  color: #4F4F4F;
+
+}
+
+#left{
+  float: left;
+  
+}
+
+#right{
+  float: right;
+}
+
+/*Middle*/
+/* [type = "submit"]{
+  border: 90px;
+} */
+
+.google {
+	text-align: center;
+  padding: 90px;
+}
+
+#form-search{
+  box-shadow: 0 1px 0 rgba(0,0,0,.3);
+  width: 390px;
+  height: 40px;
+}
+
+.form{
+	text-align: center;
+}
+
+#buttons {
+	text-align: center;
+  padding: 30px;
+  display: block;
+  font-family: Arial;
+  font-weight: bold;
+}
+
+.button{
+  
+  
+}
+
+/*Bottom*/
+.bottom{
+  width: 78px;
+}
+
+footer{
+  border: 20px solid #EEEEEE;
+  background-color: #EEEEEE;
+  height:10px;
+    
+  
+}
